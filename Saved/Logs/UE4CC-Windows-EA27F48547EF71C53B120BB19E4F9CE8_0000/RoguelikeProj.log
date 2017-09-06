@@ -311,21 +311,3 @@ Exception rethrown at [0]:
 [2017.09.06-15.56.40:889][242]LogOutputDevice:Error: ntdll.dll!0x00000000ABBB0D51
 [2017.09.06-15.56.40:889][242]LogOutputDevice:Error: 
 [2017.09.06-15.56.40:890][242]LogStats:                SubmitErrorReport -  0.000 s
-[2017.09.06-15.56.46:114][242]LogStats:                    SendNewReport -  5.223 s
-[2017.09.06-15.56.46:114][242]LogStats:             FDebug::EnsureFailed -  6.378 s
-[2017.09.06-15.57.18:274][242]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.09.06-15.57.18:329][242]SourceControl: Info [master 591e3e9] Moví una silla en el nivel para pobar
-[2017.09.06-15.57.18:329][242]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
-[2017.09.06-15.57.18:329][242]SourceControl: Info  rewrite Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset (90%)
-[2017.09.06-15.57.18:340][242]SourceControl: Info Commited [master 591e3e9] Moví una silla en el nivel para pobar.
-[2017.09.06-15.57.18:340][242]SourceControl:Error: Error Operation 'CheckOut' not supported by source control provider 'Git'
-[2017.09.06-15.58.12:109][462]LogSavePackage: Save=27.20ms
-[2017.09.06-15.58.12:109][462]LogSavePackage: Moving 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/MaterialPruebagitCB2616024C04A3E2C9A21A9A7488A5B4.tmp' to 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/CarpetaPruebaGit/MaterialPruebagit.uasset'
-[2017.09.06-15.58.12:112][462]LogSavePackage:Display: Finished SavePackage D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/CarpetaPruebaGit/MaterialPruebagit.uasset
-[2017.09.06-15.58.14:994][695]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
-[2017.09.06-15.58.15:155][695]LogPackageName:Error: Illegal call to DoesPackageExist: 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/RoguelikeProj.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.09.06-15.58.26:447][695]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.09.06-15.58.26:502][695]SourceControl: Info [master 9f951d0] Creando cosas para ver si se reciben
-[2017.09.06-15.58.26:502][695]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.09.06-15.58.26:502][695]SourceControl: Info  create mode 100644 Content/StarterContent/CarpetaPruebaGit/MaterialPruebagit.uasset
-[2017.09.06-15.58.26:513][695]SourceControl: Info Commited [master 9f951d0] Creando cosas para ver si se reciben.
