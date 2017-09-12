@@ -1,9 +1,9 @@
-﻿Log file open, 09/12/17 15:16:55
+﻿Log file open, 09/12/17 15:38:44
 LogInit:Display: Running engine for game: RoguelikeProj
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1941148818) SRandInit(1941148819).
+LogInit:Display: RandInit(-1798046042) SRandInit(-1798046041).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.075290
+LogStats: Stats thread started at 0.079179
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,662 +48,268 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.12-13.16.57:469][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.12-13.16.57:469][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.12-13.16.57:597][  0]LogInit: Computer: ALEIXDESKTOP
-[2017.09.12-13.16.57:597][  0]LogInit: User: Aleix
-[2017.09.12-13.16.57:597][  0]LogInit: CPU Page size=65536, Cores=2
-[2017.09.12-13.16.57:597][  0]LogInit: High frequency timer resolution =3.704204 MHz
-[2017.09.12-13.16.57:598][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.12-13.16.57:598][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.12-13.16.57:598][  0]LogMemory: Process Physical Memory: 261.53 MB used, 261.53 MB peak
-[2017.09.12-13.16.57:598][  0]LogMemory: Process Virtual Memory: 262.02 MB used, 262.02 MB peak
-[2017.09.12-13.16.57:598][  0]LogMemory: Physical Memory: 4026.08 MB used,  4105.84 MB free, 8131.92 MB total
-[2017.09.12-13.16.57:598][  0]LogMemory: Virtual Memory: 643.35 MB used,  4105.84 MB free, 134217728.00 MB total
-[2017.09.12-13.16.57:737][  0]LogInit: Overriding culture en with editor configuration.
-[2017.09.12-13.17.06:653][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.12-13.17.07:486][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2017.09.12-13.17.07:486][  0]LogD3D11RHI:       4062/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.09.12-13.17.07:488][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.12-13.17.07:488][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.12-13.17.07:488][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.12-13.17.07:497][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.12-13.17.07:497][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.12-13.17.07:497][  0]LogWindows: EnumDisplayDevices:
-[2017.09.12-13.17.07:498][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2017.09.12-13.17.07:498][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
-[2017.09.12-13.17.07:498][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.09.12-13.17.07:498][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.09.12-13.17.07:498][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.09.12-13.17.07:498][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2017.09.12-13.17.07:498][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
-[2017.09.12-13.17.07:498][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2017.09.12-13.17.07:498][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.12-13.17.08:061][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.12-13.17.08:281][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.09.12-13.17.08:284][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Intermediate/Shaders/WorkingDirectory/8080/).
-[2017.09.12-13.17.08:285][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleix/AppData/Local/Temp/UnrealShaderWorkingDir/2DD3B60949E5402F98A0D5994D4DB0CC/'.
-[2017.09.12-13.17.08:285][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.09.12-13.17.12:622][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.12-13.17.12:719][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.09.12-13.17.12:817][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.12-13.17.12:915][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.09.12-13.17.13:039][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.09.12-13.17.13:136][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.12-13.17.13:235][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.12-13.17.13:330][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.12-13.17.13:416][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.09.12-13.17.13:523][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.09.12-13.17.13:616][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.12-13.17.13:713][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.12-13.17.13:808][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.12-13.17.13:904][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.12-13.17.14:002][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.12-13.17.14:191][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.12-13.17.14:192][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.12-13.17.14:267][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.09.12-13.17.14:464][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.09.12-13.17.14:527][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.09.12-13.17.14:621][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.12-13.17.14:717][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.12-13.17.14:812][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.12-13.17.14:930][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.09.12-13.17.14:930][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.09.12-13.17.15:782][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.09.12-13.17.16:327][  0]LogDerivedDataCache: Loaded boot cache 0.54s 50MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.09.12-13.17.16:327][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aleix/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.09.12-13.17.16:328][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.12-13.17.16:328][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.12-13.17.16:328][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.12-13.17.16:328][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.12-13.17.16:366][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.12-13.17.16:379][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleix/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.12-13.17.16:394][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.12-13.17.16:457][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.12-13.17.16:457][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.12-13.17.18:201][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.12-13.17.18:205][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.12-13.17.18:593][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.12-13.17.18:677][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.12-13.17.18:767][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.12-13.17.18:767][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.09.12-13.17.18:767][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.09.12-13.17.20:762][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: roguelikeproj, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2218974894
-[2017.09.12-13.17.20:832][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2017.09.12-13.17.20:917][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.033759 seconds
-[2017.09.12-13.17.20:926][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.09.12-13.17.20:926][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.09.12-13.17.20:926][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.12-13.17.21:062][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.12-13.17.53:738][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.12-13.17.53:809][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.12-13.17.55:205][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.12-13.17.55:912][  0]SourceControl: Info Source control is disabled
-[2017.09.12-13.18.01:761][  0]LogEngine: Initializing Engine...
-[2017.09.12-13.18.01:762][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.12-13.18.01:914][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.12-13.18.01:914][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.12-13.18.02:155][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.12-13.18.02:173][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.12-13.18.02:212][  0]LogInit: FAudioDevice initialized.
-[2017.09.12-13.18.02:272][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.09.12-13.18.02:320][  0]LogInit: Texture streaming: Enabled
-[2017.09.12-13.18.02:509][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.12-13.18.02:729][  0]LogInit: Transaction tracking system initialized
-[2017.09.12-13.18.03:419][  0]BlueprintLog: New page: Editor Load
-[2017.09.12-13.18.05:196][  0]LocalizationService: Info Localization service is disabled
-[2017.09.12-13.18.06:787][  0]LogConsoleResponse:Display: 
-[2017.09.12-13.18.07:088][  0]LogFileCache: Scanning file cache for directory 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/' took 0.06s
-[2017.09.12-13.18.07:088][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.12-13.18.07:088][  0]LogCook:Display: Mobile HDR setting 1
-[2017.09.12-13.18.10:956][  0]Cmd: MAP LOAD FILE="D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.12-13.18.10:957][  0]LightingResults: New page: Lighting Build
-[2017.09.12-13.18.11:034][  0]MapCheck: New page: Map Check
-[2017.09.12-13.18.11:034][  0]LightingResults: New page: Lighting Build
-[2017.09.12-13.18.15:885][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.09.12-13.18.16:439][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.12-13.18.16:628][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.12-13.18.16:737][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.084ms to complete.
-[2017.09.12-13.18.16:737][  0]LogFileHelpers: Loading map 'Minimal_Default' took 5.781
-[2017.09.12-13.18.16:860][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.09.12-13.18.18:646][  0]LogCollectionManager: Loaded 0 collections in 0.002624 seconds
-[2017.09.12-13.18.19:617][  0]LogFileCache: Scanning file cache for directory 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/Collections/' took 0.01s
-[2017.09.12-13.18.19:617][  0]LogFileCache: Scanning file cache for directory 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/Developers/Aleix/Collections/' took 0.01s
-[2017.09.12-13.18.19:617][  0]LogFileCache: Scanning file cache for directory 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/Collections/' took 0.01s
-[2017.09.12-13.18.19:617][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.09.12-13.18.19:947][  0]LogContentBrowser: Native class hierarchy populated in 0.0673 seconds. Added 2245 classes and 453 folders.
-[2017.09.12-13.18.20:534][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.09.12-13.18.24:242][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.09.12-13.18.25:207][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.09.12-13.18.25:687][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.09.12-13.18.25:759][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.09.12-13.18.25:915][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.09.12-13.18.25:916][  0]LogLoad: (Engine Initialization) Total time: 92.56 seconds
-[2017.09.12-13.18.25:916][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
-[2017.09.12-13.18.25:916][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.12-13.18.25:916][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.12-13.18.25:929][  0]LogOcInput: OculusInput pre-init called
-[2017.09.12-13.18.26:062][  0]SourceControl: Info On branch master
-[2017.09.12-13.18.26:062][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2017.09.12-13.18.26:062][  0]SourceControl: Info Changes not staged for commit:
-[2017.09.12-13.18.26:062][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2017.09.12-13.18.26:062][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.09.12-13.18.26:062][  0]SourceControl: Info 	deleted:    Saved/Logs/RoguelikeProj-backup-2017.09.06-17.51.48.log
-[2017.09.12-13.18.26:062][  0]SourceControl: Info 	modified:   Saved/Logs/RoguelikeProj.log
-[2017.09.12-13.18.26:062][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-EA27F48547EF71C53B120BB19E4F9CE8/CrashReportClient.ini
-[2017.09.12-13.18.26:062][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-EA27F48547EF71C53B120BB19E4F9CE8_0000/CrashContext.runtime-xml
-[2017.09.12-13.18.26:062][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-EA27F48547EF71C53B120BB19E4F9CE8_0000/CrashReportClient.ini
-[2017.09.12-13.18.26:062][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-EA27F48547EF71C53B120BB19E4F9CE8_0000/RoguelikeProj.log
-[2017.09.12-13.18.26:062][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-EA27F48547EF71C53B120BB19E4F9CE8_0000/UE4Minidump.dmp
-[2017.09.12-13.18.26:062][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.09.12-13.18.26:062][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.12-13.18.26:076][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.12-13.18.26:131][  0]LogSlate: Took 0.021619 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.12-13.18.26:137][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.12-13.18.26:213][  0]LogSlate: Took 0.012983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.12-13.18.27:011][  1]LogRenderer: Reallocating scene render targets to support 824x632 NumSamples 1 (Frame:2).
-[2017.09.12-13.18.27:616][  3]LogAssetRegistry: Asset discovery search completed in 66.8055 seconds
-[2017.09.12-13.18.27:616][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000011 seconds (found 0 objects)
-[2017.09.12-13.18.27:616][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
-[2017.09.12-13.20.18:660][898]LogRenderer: Reallocating scene render targets to support 884x724 NumSamples 1 (Frame:3615).
-[2017.09.12-13.20.32:405][452]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.12-13.20.33:402][452]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.12-13.20.39:699][452]LogAIModule: Creating AISystem for world Nivel1
-[2017.09.12-13.20.39:944][452]Cmd: MAP LOAD FILE="D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/Niveles/Nivel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.12-13.20.39:944][452]LightingResults: New page: Lighting Build
-[2017.09.12-13.20.39:946][452]LoadErrors: New page: Loading map: Nivel1.umap
-[2017.09.12-13.20.39:999][452]MapCheck: New page: Map Check
-[2017.09.12-13.20.39:999][452]LightingResults: New page: Lighting Build
-[2017.09.12-13.20.40:119][452]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.12-13.20.40:145][452]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.12-13.20.40:223][452]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.211ms to complete.
-[2017.09.12-13.20.40:223][452]LogFileHelpers: Loading map 'Nivel1' took 0.282
-[2017.09.12-13.21.06:016][405]LogSourceControl: Writed 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1.umap' (737742o)
-[2017.09.12-13.21.06:205][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:205][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:205][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:205][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:205][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:206][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:207][405]LogAIModule: Creating AISystem for world temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1
-[2017.09.12-13.21.06:223][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:223][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.06:223][405]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.25:995][633]LogUObjectHash:Warning: Ambiguous search, could be Package /Game/Niveles/Nivel1./Game/Niveles/Nivel1_BuiltData or Package /Temp/Diff/temp-332b02e3558efefac5de2af3d9dcf6e6ebf6ac8c-Nivel1./Game/Niveles/Nivel1_BuiltData
-[2017.09.12-13.21.30:349][ 78]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.09.12-13.21.30:382][ 78]Cmd: MAP LOAD FILE="D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.12-13.21.30:382][ 78]LightingResults: New page: Lighting Build
-[2017.09.12-13.21.30:384][ 78]LoadErrors: New page: Loading map: Minimal_Default.umap
-[2017.09.12-13.21.30:386][ 78]MapCheck: New page: Map Check
-[2017.09.12-13.21.30:386][ 78]LightingResults: New page: Lighting Build
-[2017.09.12-13.21.30:537][ 78]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.12-13.21.30:563][ 78]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.12-13.21.30:641][ 78]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.799ms to complete.
-[2017.09.12-13.21.30:641][ 78]LogFileHelpers: Loading map 'Minimal_Default' took 0.261
-[2017.09.12-13.21.31:881][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
-[2017.09.12-13.21.49:808][605]LogSourceControl: Writed 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default.umap' (1236397o)
-[2017.09.12-13.21.49:851][605]LogAIModule: Creating AISystem for world temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default
-[2017.09.12-13.22.46:456][364]MapCheck: New page: Map Check
-[2017.09.12-13.22.46:584][364]LightingResults: New page: Lighting Build - Sep 12, 2017, 5:22:46 PM
-[2017.09.12-13.22.47:042][364]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.09.12-13.22.47:261][364]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.09.12-13.22.47:341][364]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.09.12-13.22.50:207][364]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
-[2017.09.12-13.22.50:291][364]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+[2017.09.12-13.38.45:921][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.12-13.38.45:921][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.12-13.38.45:936][  0]LogInit: Computer: ALEIXDESKTOP
+[2017.09.12-13.38.45:936][  0]LogInit: User: Aleix
+[2017.09.12-13.38.45:936][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.09.12-13.38.45:936][  0]LogInit: High frequency timer resolution =3.704204 MHz
+[2017.09.12-13.38.45:937][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.12-13.38.45:937][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.12-13.38.45:937][  0]LogMemory: Process Physical Memory: 262.80 MB used, 262.80 MB peak
+[2017.09.12-13.38.45:937][  0]LogMemory: Process Virtual Memory: 262.08 MB used, 262.08 MB peak
+[2017.09.12-13.38.45:937][  0]LogMemory: Physical Memory: 4021.31 MB used,  4110.61 MB free, 8131.92 MB total
+[2017.09.12-13.38.45:937][  0]LogMemory: Virtual Memory: 643.35 MB used,  4110.61 MB free, 134217728.00 MB total
+[2017.09.12-13.38.46:087][  0]LogInit: Overriding culture en with editor configuration.
+[2017.09.12-13.38.46:982][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.12-13.38.47:627][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.09.12-13.38.47:627][  0]LogD3D11RHI:       4062/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.12-13.38.47:629][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.12-13.38.47:629][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.12-13.38.47:629][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.12-13.38.47:638][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.12-13.38.47:638][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.12-13.38.47:638][  0]LogWindows: EnumDisplayDevices:
+[2017.09.12-13.38.47:638][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.09.12-13.38.47:638][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.09.12-13.38.47:638][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.12-13.38.47:638][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.12-13.38.47:639][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.12-13.38.47:639][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.09.12-13.38.47:639][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.12-13.38.47:639][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.12-13.38.47:639][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.12-13.38.48:276][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.12-13.38.48:500][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.12-13.38.48:503][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Intermediate/Shaders/WorkingDirectory/14972/).
+[2017.09.12-13.38.48:504][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleix/AppData/Local/Temp/UnrealShaderWorkingDir/3221065B419A26B2C1D1A483417F0385/'.
+[2017.09.12-13.38.48:504][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.12-13.38.50:235][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.12-13.38.50:331][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.12-13.38.50:423][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.12-13.38.50:517][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.12-13.38.50:610][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.12-13.38.50:704][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.12-13.38.50:798][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.12-13.38.50:904][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.12-13.38.50:991][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.12-13.38.51:081][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.12-13.38.51:177][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.12-13.38.51:268][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.12-13.38.51:356][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.12-13.38.51:444][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.12-13.38.51:534][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.12-13.38.51:713][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.12-13.38.51:713][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.12-13.38.51:785][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.12-13.38.51:943][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.12-13.38.52:004][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.12-13.38.52:094][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.12-13.38.52:184][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.12-13.38.52:276][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.12-13.38.52:367][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.12-13.38.52:367][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.12-13.38.53:164][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.12-13.38.53:277][  0]LogDerivedDataCache: Loaded boot cache 0.11s 50MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.09.12-13.38.53:277][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aleix/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.09.12-13.38.53:277][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.12-13.38.53:277][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.12-13.38.53:277][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.12-13.38.53:277][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.12-13.38.53:299][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.12-13.38.53:312][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleix/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.12-13.38.53:327][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.12-13.38.53:328][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.12-13.38.53:328][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.12-13.38.53:765][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.12-13.38.53:769][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.12-13.38.54:091][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.12-13.38.54:166][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.12-13.38.54:251][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.12-13.38.54:251][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.12-13.38.54:251][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.12-13.38.55:141][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: roguelikeproj, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2218974894
+[2017.09.12-13.38.55:207][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.09.12-13.38.55:274][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.017496 seconds
+[2017.09.12-13.38.55:283][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.09.12-13.38.55:283][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.09.12-13.38.55:283][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.12-13.38.55:404][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.12-13.38.57:958][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.12-13.38.58:024][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.12-13.38.58:770][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.12-13.38.59:408][  0]SourceControl: Info Source control is disabled
+[2017.09.12-13.39.03:132][  0]LogEngine: Initializing Engine...
+[2017.09.12-13.39.03:133][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.12-13.39.03:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.12-13.39.03:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.12-13.39.03:493][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.12-13.39.03:511][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.12-13.39.03:550][  0]LogInit: FAudioDevice initialized.
+[2017.09.12-13.39.03:606][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/Aleix/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.09.12-13.39.03:625][  0]LogInit: Texture streaming: Enabled
+[2017.09.12-13.39.03:796][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.12-13.39.03:950][  0]LogInit: Transaction tracking system initialized
+[2017.09.12-13.39.04:604][  0]BlueprintLog: New page: Editor Load
+[2017.09.12-13.39.06:236][  0]LocalizationService: Info Localization service is disabled
+[2017.09.12-13.39.07:418][  0]LogConsoleResponse:Display: 
+[2017.09.12-13.39.07:624][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.12-13.39.07:624][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.12-13.39.08:358][  0]LogFileCache: Scanning file cache for directory 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/' took 0.02s
+[2017.09.12-13.39.09:903][  0]Cmd: MAP LOAD FILE="D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.12-13.39.09:904][  0]LightingResults: New page: Lighting Build
+[2017.09.12-13.39.09:979][  0]MapCheck: New page: Map Check
+[2017.09.12-13.39.09:979][  0]LightingResults: New page: Lighting Build
+[2017.09.12-13.39.10:143][  0]LogLinker:Warning: Can't find file '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData'
+[2017.09.12-13.39.10:143][  0]LogLinker:Warning: Can't find file for asset '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData' while loading D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.09.12-13.39.10:143][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData
+[2017.09.12-13.39.10:174][  0]LogLinker:Warning: Can't find file '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData'
+[2017.09.12-13.39.10:174][  0]LogLinker:Warning: Can't find file for asset '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData' while loading D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.09.12-13.39.10:174][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData
+[2017.09.12-13.39.10:175][  0]LogLinker:Warning: Can't find file '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData'
+[2017.09.12-13.39.10:175][  0]LogLinker:Warning: Can't find file for asset '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData' while loading NULL.
+[2017.09.12-13.39.10:175][  0]LogLinker:Warning: Can't find file '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData'
+[2017.09.12-13.39.10:175][  0]LogLinker:Warning: Can't find file for asset '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData' while loading NULL.
+[2017.09.12-13.39.10:181][  0]LogLinker:Warning: Can't find file '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData'
+[2017.09.12-13.39.10:182][  0]LoadErrors: Info Failed to load /Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData.temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.09.12-13.39.10:182][  0]LogLinker:Warning: Can't find file for asset '/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData' while loading NULL.
+[2017.09.12-13.39.10:182][  0]LoadErrors: Info Failed to load /Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData.temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.09.12-13.39.10:345][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.09.12-13.39.10:383][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.12-13.39.10:384][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.12-13.39.10:454][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.291ms to complete.
+[2017.09.12-13.39.10:454][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.551
+[2017.09.12-13.39.10:519][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.12-13.39.10:616][  0]LogCollectionManager: Loaded 0 collections in 0.002505 seconds
+[2017.09.12-13.39.10:773][  0]LogFileCache: Scanning file cache for directory 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/Collections/' took 0.01s
+[2017.09.12-13.39.10:773][  0]LogFileCache: Scanning file cache for directory 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/Developers/Aleix/Collections/' took 0.01s
+[2017.09.12-13.39.10:773][  0]LogFileCache: Scanning file cache for directory 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/Collections/' took 0.01s
+[2017.09.12-13.39.10:773][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.09.12-13.39.10:795][  0]LogContentBrowser: Native class hierarchy populated in 0.0216 seconds. Added 2245 classes and 453 folders.
+[2017.09.12-13.39.10:947][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.09.12-13.39.11:027][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.12-13.39.11:187][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.12-13.39.11:286][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.12-13.39.11:296][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.12-13.39.11:402][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.12-13.39.11:402][  0]LogLoad: (Engine Initialization) Total time: 28.53 seconds
+[2017.09.12-13.39.11:402][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.09.12-13.39.11:402][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.12-13.39.11:402][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.12-13.39.11:415][  0]LogOcInput: OculusInput pre-init called
+[2017.09.12-13.39.11:435][  0]SourceControl: Info On branch master
+[2017.09.12-13.39.11:435][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.09.12-13.39.11:435][  0]SourceControl: Info Changes not staged for commit:
+[2017.09.12-13.39.11:435][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.09.12-13.39.11:435][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.12-13.39.11:435][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.12-13.39.11:435][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.09.12-13.39.11:435][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.12-13.39.11:435][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.12-13.39.11:435][  0]SourceControl: Info 	modified:   Saved/Logs/RoguelikeProj.log
+[2017.09.12-13.39.11:435][  0]SourceControl: Info Untracked files:
+[2017.09.12-13.39.11:435][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.09.12-13.39.11:435][  0]SourceControl: Info 	Content/BP_SpellSpawn.uasset
+[2017.09.12-13.39.11:435][  0]SourceControl: Info 	Content/Instancia.uasset
+[2017.09.12-13.39.11:435][  0]SourceControl: Info 	Content/LevelDesign/
+[2017.09.12-13.39.11:435][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.12-13.39.11:435][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.12-13.39.11:457][  0]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.12-13.39.11:466][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.12-13.39.11:466][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.12-13.39.11:484][  0]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.12-13.39.11:670][  0]LogRenderer: Reallocating scene render targets to support 884x724 NumSamples 1 (Frame:2).
+[2017.09.12-13.39.11:855][  2]LogAssetRegistry: Asset discovery search completed in 16.6696 seconds
+[2017.09.12-13.39.11:855][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2017.09.12-13.39.11:855][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.09.12-13.39.45:171][113]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.09.12-13.39.45:271][113]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RoguelikeProj
 
-Server stack trace: 
-   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
-   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
-   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
-   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
-   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
-   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+[2017.09.12-13.39.45:271][113]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
 
-Exception rethrown at [0]: 
-   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
-   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
-[2017.09.12-13.22.55:925][364]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.09.12-13.22.55:925][364]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8080
-[2017.09.12-13.22.59:679][364]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.09.12-13.22.59:682][364]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.09.12-13.22.59:682][364]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.09.12-13.22.59:682][364]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.09.12-13.22.59:682][364]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.09.12-13.22.59:682][364]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.09.12-13.23.00:896][364]LogEditorBuildUtils: Build time 0:14
-[2017.09.12-13.23.10:554][891]Job is a success!
-[2017.09.12-13.23.11:173][892]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512) - 190 MB total VRAM
-[2017.09.12-13.23.11:173][892]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256) - 190 MB total VRAM
-[2017.09.12-13.23.11:173][892]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512) - 190 MB total VRAM
-[2017.09.12-13.23.11:173][892]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32) - 190 MB total VRAM
-[2017.09.12-13.23.11:173][892]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64) - 190 MB total VRAM
-[2017.09.12-13.23.11:173][892]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64) - 190 MB total VRAM
-[2017.09.12-13.23.11:397][892]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X128) - 190 MB total VRAM
-[2017.09.12-13.23.11:401][892]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32) - 190 MB total VRAM
-[2017.09.12-13.23.12:074][892]Lightmass on ALEIXDESKTOP: 8.28 sec total, 5.25 sec importing, 151 ms setup, 283 ms photons, 2.41 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 9.61 sec total, 3.89 sec processing.
-[2017.09.12-13.23.12:129][892]LogStaticLightingSystem: Illumination: 25.5 sec (490 ms encoding lightmaps, 218 ms encoding shadowmaps)
-[2017.09.12-13.23.12:129][892]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.09.12-13.23.12:129][892]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.09.12-13.23.12:677][892]DumpUnbuiltLightIteractions
-[2017.09.12-13.23.12:677][892]Lights with unbuilt interactions: 0
-[2017.09.12-13.23.12:677][892]
-[2017.09.12-13.23.12:677][892]Primitives with unbuilt interactions: 0
-[2017.09.12-13.23.12:781][893]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.09.12-13.23.12:782][893]MapCheck: New page: Minimal_Default - Sep 12, 2017, 5:23:12 PM
-[2017.09.12-13.23.13:208][893]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 426.362ms to complete.
-[2017.09.12-13.23.13:447][909]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
-[2017.09.12-13.23.38:318][725]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
-[2017.09.12-13.23.39:088][725]LogSavePackage: Save=559.02ms
-[2017.09.12-13.23.39:088][725]LogSavePackage: Moving 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/Minimal_DefaultA4F663324400EB9F219855A7F8FEAD54.tmp' to 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap'
-[2017.09.12-13.23.39:095][725]LogSavePackage:Display: Finished SavePackage D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap
-[2017.09.12-13.23.39:125][725]LogFileHelpers: Saving map 'Minimal_Default' took 0.771
-[2017.09.12-13.23.39:131][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData" FILE="" SILENT=true
-[2017.09.12-13.23.39:221][725]LogSavePackage: Save=90.42ms
-[2017.09.12-13.23.39:221][725]LogSavePackage: Moving 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to ''
-[2017.09.12-13.23.39:222][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.39:725][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.40:227][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.40:729][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.41:233][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.41:735][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.42:237][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.42:740][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.43:243][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.43:745][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to '', retrying in .5s...
-[2017.09.12-13.23.44:248][725]LogFileManager:Error: Error moving file 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/E39DE42B46D0D786AB4FA48EC955E4D1.tmp' to ''.
-[2017.09.12-13.23.44:249][725]LogSavePackage:Error: Error saving ''
-[2017.09.12-13.23.44:252][725]LogSavePackage:Display: Finished SavePackage 
-[2017.09.12-13.23.59:540][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData" FILE="" SILENT=true
-[2017.09.12-13.23.59:615][725]LogSavePackage: Save=74.65ms
-[2017.09.12-13.23.59:615][725]LogSavePackage: Moving 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to ''
-[2017.09.12-13.23.59:616][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.00:117][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.00:621][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.01:123][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.01:625][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.02:127][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.02:629][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.03:131][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.03:633][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.04:135][725]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to '', retrying in .5s...
-[2017.09.12-13.24.04:637][725]LogFileManager:Error: Error moving file 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/66492E9348C1D4D0878924A38AB54895.tmp' to ''.
-[2017.09.12-13.24.04:638][725]LogSavePackage:Error: Error saving ''
-[2017.09.12-13.24.04:641][725]LogSavePackage:Display: Finished SavePackage 
-[2017.09.12-13.24.09:445][725]EditorErrors: New page: Save Output
-[2017.09.12-13.24.09:445][725]EditorErrors:Warning: Warning Error saving ''
-[2017.09.12-13.24.09:445][725]EditorErrors:Warning: Warning Error saving ''
-[2017.09.12-13.24.17:984][732]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
-[2017.09.12-13.25.25:895][959]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
-[2017.09.12-13.25.26:110][959]LogPackageName:Error: Illegal call to DoesPackageExist: 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/RoguelikeProj.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.09.12-13.25.27:428][959]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.318 s
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: === Handled ensure: ===
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: 
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/RoguelikeProj.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: Stack: 
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000068B995E6
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000068949B82
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006895B666
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006912A6E8
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000083603D22
-[2017.09.12-13.25.27:428][959]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000083603EB9
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000005C251D2E
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000005C20B4B5
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000005C20AA8D
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000005C21F274
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x0000000057D2B851
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x0000000057D3D1ED
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000083609C5C
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000063537517
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000063D42196
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B6DEE3
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B5EB40
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B5EBBA
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B70A29
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B722B6
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: KERNEL32.DLL!0x00000000ABAA2774
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: ntdll.dll!0x00000000ABBB0D51
-[2017.09.12-13.25.27:429][959]LogOutputDevice:Error: 
-[2017.09.12-13.25.27:436][959]LogStats:                SubmitErrorReport -  0.000 s
-[2017.09.12-13.25.33:097][959]LogStats:                    SendNewReport -  5.660 s
-[2017.09.12-13.25.33:097][959]LogStats:             FDebug::EnsureFailed -  6.987 s
-[2017.09.12-13.26.36:930][102]LogSavePackage: Save=186.64ms
-[2017.09.12-13.26.36:930][102]LogSavePackage: Moving 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/Minimal_Default93DA3303480CB157BA71078F970D12EE.tmp' to 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap'
-[2017.09.12-13.26.36:931][102]LogSavePackage:Display: Finished SavePackage D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap
-[2017.09.12-13.26.37:086][102]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
-[2017.09.12-13.26.37:090][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData" FILE="" SILENT=true
-[2017.09.12-13.26.37:167][102]LogSavePackage: Save=76.46ms
-[2017.09.12-13.26.37:167][102]LogSavePackage: Moving 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to ''
-[2017.09.12-13.26.37:167][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.37:670][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.38:172][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.38:675][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.39:178][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.39:680][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.40:182][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.40:685][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.41:187][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.41:689][102]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to '', retrying in .5s...
-[2017.09.12-13.26.42:190][102]LogFileManager:Error: Error moving file 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/8CCF90DA4E345E0F48030B99C8E04E66.tmp' to ''.
-[2017.09.12-13.26.42:190][102]LogSavePackage:Error: Error saving ''
-[2017.09.12-13.26.42:192][102]LogSavePackage:Display: Finished SavePackage 
-[2017.09.12-13.26.51:338][102]EditorErrors: New page: Save Output
-[2017.09.12-13.26.51:338][102]EditorErrors:Warning: Warning Error saving ''
-[2017.09.12-13.26.54:622][111]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
-[2017.09.12-13.27.10:471][190]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512) - 190 MB total VRAM
-[2017.09.12-13.27.10:596][190]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64) - 190 MB total VRAM
-[2017.09.12-13.27.10:607][190]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512) - 190 MB total VRAM
-[2017.09.12-13.27.10:692][190]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64) - 190 MB total VRAM
-[2017.09.12-13.27.10:699][190]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256) - 190 MB total VRAM
-[2017.09.12-13.27.10:767][190]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32) - 190 MB total VRAM
-[2017.09.12-13.27.40:941][976]LogMaterial: Missing cached shader map for material MaterialPruebagit, compiling. 
-[2017.09.12-13.27.40:998][976]LogTemp:Display: Added material ShaderMap 0x00000205E2E69600 with Material 0x00000205E2E4C100 to ShaderMapsBeingCompiled
-[2017.09.12-13.27.41:078][976]LogTemp:Display: Kicking off shader compilation for MaterialPruebagit, GameThreadShaderMap 0x00000205E2E69600
-[2017.09.12-13.27.43:840][976]LogTemp:Display: Removed shader map 0x00000205E2E69600 from material 0x00000205E2E4C100
-[2017.09.12-13.27.44:553][976]SourceControl: Info rm 'Content/StarterContent/CarpetaPruebaGit/MaterialPruebagit.uasset'
-[2017.09.12-13.27.44:620][977]LogTemp:Display: Finished compile of shader map 0x00000205E2E69600
-[2017.09.12-13.28.16:828][903]LogSavePackage: Save=185.28ms
-[2017.09.12-13.28.16:828][903]LogSavePackage: Moving 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/Minimal_DefaultE6A012BE4E10D06A9AE1829D5E3FE8A7.tmp' to 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap'
-[2017.09.12-13.28.16:829][903]LogSavePackage:Display: Finished SavePackage D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/StarterContent/Maps/Minimal_Default.umap
-[2017.09.12-13.28.16:989][903]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
-[2017.09.12-13.28.16:991][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Diff/temp-591e3e9e3569351181c2005a83092d0a16003403-Minimal_Default_BuiltData" FILE="" SILENT=true
-[2017.09.12-13.28.17:068][903]LogSavePackage: Save=76.60ms
-[2017.09.12-13.28.17:068][903]LogSavePackage: Moving 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to ''
-[2017.09.12-13.28.17:068][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.17:570][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.18:072][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.18:574][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.19:076][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.19:578][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.20:080][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.20:581][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.21:083][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.21:585][903]LogFileManager:Warning: MoveFile was unable to move 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to '', retrying in .5s...
-[2017.09.12-13.28.22:086][903]LogFileManager:Error: Error moving file 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/1975B54549A863D63E99B3896182B9DA.tmp' to ''.
-[2017.09.12-13.28.22:087][903]LogSavePackage:Error: Error saving ''
-[2017.09.12-13.28.22:097][903]LogSavePackage:Display: Finished SavePackage 
-[2017.09.12-13.28.23:920][903]EditorErrors: New page: Save Output
-[2017.09.12-13.28.23:920][903]EditorErrors:Warning: Warning Error saving ''
-[2017.09.12-13.28.24:249][925]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
-[2017.09.12-13.28.44:920][808]Cmd: CLOSE_SLATE_MAINFRAME
-[2017.09.12-13.28.48:812][809]Cmd: QUIT_EDITOR
-[2017.09.12-13.28.48:874][809]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.09.12-13.28.49:241][809]LogExit: Preparing to exit.
-[2017.09.12-13.28.50:254][809]LogExit: Editor shut down
-[2017.09.12-13.28.50:254][809]LogExit: Transaction tracking system shut down
-[2017.09.12-13.28.50:348][809]LogObj: Freed 0b from 0 cluster array pools.
-[2017.09.12-13.28.50:349][809]LogExit: Object subsystem successfully closed.
-[2017.09.12-13.28.50:371][809]LogD3D11RHI: Shutdown
-[2017.09.12-13.28.50:371][809]LogD3D11RHI: CleanupD3DDevice
-[2017.09.12-13.28.50:494][809]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.12-13.28.50:518][809]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
-[2017.09.12-13.28.50:518][809]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
-[2017.09.12-13.28.50:519][809]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
-[2017.09.12-13.28.50:519][809]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
-[2017.09.12-13.28.50:541][809]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
-[2017.09.12-13.28.50:588][809]LogDirectoryWatcher: A directory notification for 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/Collections/' was aborted.
-[2017.09.12-13.28.50:588][809]LogDirectoryWatcher: A directory notification for 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/Developers/Aleix/Collections/' was aborted.
-[2017.09.12-13.28.50:588][809]LogDirectoryWatcher: A directory notification for 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Saved/Collections/' was aborted.
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
-[2017.09.12-13.28.50:588][809]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module BspMode (470)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module Media (443)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module SessionServices (430)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
-[2017.09.12-13.28.50:589][809]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
-[2017.09.12-13.28.51:064][809]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
-[2017.09.12-13.28.51:064][809]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
-[2017.09.12-13.28.51:064][809]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
-[2017.09.12-13.28.51:064][809]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
-[2017.09.12-13.28.51:064][809]LogModuleManager: Shutting down and abandoning module MergeActors (400)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module SizeMap (398)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module TreeMap (396)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module XmlParser (380)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module Blutility (378)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
-[2017.09.12-13.28.51:065][809]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module Layers (354)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module Persona (346)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
-[2017.09.12-13.28.51:109][809]LogModuleManager: Shutting down and abandoning module Kismet (342)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module Toolbox (336)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module OutputLog (330)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module GammaUI (328)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module Documentation (326)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module Niagara (324)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module PortalServices (318)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module AIModule (312)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
-[2017.09.12-13.28.51:110][809]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module SteamVR (300)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module OculusInput (292)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module CableComponent (286)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
-[2017.09.12-13.28.51:201][809]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module SourceControl (245)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
-[2017.09.12-13.28.51:202][809]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
-[2017.09.12-13.28.51:203][809]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
-[2017.09.12-13.28.51:203][809]LogModuleManager: Shutting down and abandoning module MainFrame (230)
-[2017.09.12-13.28.51:203][809]LogModuleManager: Shutting down and abandoning module HotReload (229)
-[2017.09.12-13.28.51:204][809]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.09.12-13.28.51:205][809]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
-[2017.09.12-13.28.51:205][809]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
-[2017.09.12-13.28.51:205][809]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
-[2017.09.12-13.28.51:205][809]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
-[2017.09.12-13.28.51:306][809]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module Paper2D (204)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module MfMedia (198)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module VREditor (192)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module UMG (182)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module Sequencer (180)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module AssetTools (178)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module MessageLog (177)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module Slate (168)
-[2017.09.12-13.28.51:407][809]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
-[2017.09.12-13.28.51:411][809]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2017.09.12-13.28.51:411][809]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2017.09.12-13.28.51:411][809]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2017.09.12-13.28.51:411][809]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2017.09.12-13.28.51:411][809]LogModuleManager: Shutting down and abandoning module Core (154)
-[2017.09.12-13.28.51:411][809]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
-[2017.09.12-13.28.51:524][809]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.09.12-13.28.51:524][809]LogDirectoryWatcher: A directory notification for 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/Content/' was aborted.
-[2017.09.12-13.28.51:524][809]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.09.12-13.28.51:524][809]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2017.09.12-13.28.51:525][809]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
-[2017.09.12-13.28.51:525][809]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
-[2017.09.12-13.28.51:525][809]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
-[2017.09.12-13.28.51:525][809]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
-[2017.09.12-13.28.51:525][809]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
-[2017.09.12-13.28.51:525][809]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
-[2017.09.12-13.28.51:525][809]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
-[2017.09.12-13.28.51:525][809]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
-[2017.09.12-13.28.51:613][809]LogDerivedDataCache: Shutdown
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
-[2017.09.12-13.28.51:613][809]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Messaging (93)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module Settings (50)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module GearVR (46)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.09.12-13.28.51:614][809]LogOnline:Display: Unloading online subsystem: NULL
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.09.12-13.28.51:614][809]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.09.12-13.28.51:614][809]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.09.12-13.28.51:614][809]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF0D8EDDB-4F57-9AFB-5403-F798534F7131%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=47d95e514e3e76a32503b7bab981012f%7Cadf31ff77c554018908255c7ee3b5d14%7C8106f2d2-0ada-48f6-a7dd-b77560f20dda&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.09.12-13.28.51:643][809]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.09.12-13.28.51:646][809]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.09.12-13.28.51:646][809]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.09.12-13.28.51:646][809]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.09.12-13.28.51:646][809]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.09.12-13.28.51:646][809]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.09.12-13.28.51:648][809]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.09.12-13.28.51:648][809]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.09.12-13.28.51:648][809]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.09.12-13.28.51:648][809]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.09.12-13.28.51:649][809]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.09.12-13.28.51:649][809]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.09.12-13.28.51:649][809]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.09.12-13.28.51:649][809]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.09.12-13.28.51:649][809]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.09.12-13.28.51:649][809]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.09.12-13.28.51:651][809]LogExit: Exiting.
-[2017.09.12-13.28.51:653][809]Log file closed, 09/12/17 15:28:51
+[2017.09.12-13.39.45:271][113]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.09.12-13.39.45:271][113]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.09.12-13.39.45:271][113]LogTemp:Display: BranchPath = ALEIXDESKTOP/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ALEIXDESKTOP/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.09.12-13.39.45:301][113]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Aleix\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.09.12-13.39.45:301][113]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.09.12-13.39.45:301][113]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.09.12-13.39.45:301][113]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.09.12-13.39.45:301][113]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.09.12-13.39.45:301][113]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2017.09.12-13.41.00:939][580]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.12-13.41.00:981][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.09.12-13.41.00:990][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.12-13.41.01:006][580]PIE: New page: PIE session: Minimal_Default (Sep 12, 2017, 5:41:01 PM)
+[2017.09.12-13.41.01:029][580]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.09.12-13.41.01:085][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056657s)
+[2017.09.12-13.41.01:086][580]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.09.12-13.41.01:086][580]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2017.09.12-13.41.01:092][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.069788s)
+[2017.09.12-13.41.01:158][580]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.12-13.41.01:173][580]LogInit: FAudioDevice initialized.
+[2017.09.12-13.41.01:306][580]LogLoad: Game class is 'GameModeBase'
+[2017.09.12-13.41.01:364][580]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.09.12-15.41.01
+[2017.09.12-13.41.01:378][580]LogWorld: Bringing up level for play took: 0.016158
+[2017.09.12-13.41.01:545][580]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.12-13.41.01:593][580]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.296
+[2017.09.12-13.41.01:593][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.09.12-13.41.04:080][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.09.12-13.41.04:222][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.09.12-13.41.13:770][424]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.09.12-13.41.13:936][424]LogPackageName:Error: Illegal call to DoesPackageExist: 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/RoguelikeProj.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.09.12-13.41.14:470][424]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.533 s
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: === Handled ensure: ===
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: 
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/RoguelikeProj.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: Stack: 
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000068B995E6
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000068949B82
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000006895B666
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000006912A6E8
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000083603D22
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000083603EB9
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000005C251D2E
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000005C20B4B5
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000005C20AA8D
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000005C21F274
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000005625B851
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000005626D1ED
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000083609C5C
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000063537517
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000063D42196
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B6DEE3
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B5EB40
+[2017.09.12-13.41.14:470][424]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B5EBBA
+[2017.09.12-13.41.14:471][424]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B70A29
+[2017.09.12-13.41.14:471][424]LogOutputDevice:Error: UE4Editor.exe!0x0000000034B722B6
+[2017.09.12-13.41.14:471][424]LogOutputDevice:Error: KERNEL32.DLL!0x00000000ABAA2774
+[2017.09.12-13.41.14:471][424]LogOutputDevice:Error: ntdll.dll!0x00000000ABBB0D51
+[2017.09.12-13.41.14:471][424]LogOutputDevice:Error: 
+[2017.09.12-13.41.14:481][424]LogStats:                SubmitErrorReport -  0.000 s
+[2017.09.12-13.41.16:344][424]LogStats:                    SendNewReport -  1.863 s
+[2017.09.12-13.41.16:344][424]LogStats:             FDebug::EnsureFailed -  2.408 s
+[2017.09.12-13.42.19:943][424]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.09.12-13.42.20:198][424]SourceControl: Info [master 1553803] spellspawn + instancia (BP)
+[2017.09.12-13.42.20:198][424]SourceControl: Info  3 files changed, 99 insertions(+)
+[2017.09.12-13.42.20:198][424]SourceControl: Info  create mode 100644 Content/BP_SpellSpawn.uasset
+[2017.09.12-13.42.20:198][424]SourceControl: Info  create mode 100644 Content/Instancia.uasset
+[2017.09.12-13.42.20:210][424]SourceControl: Info Commited [master 1553803] spellspawn + instancia (BP).
+[2017.09.12-13.42.46:236][798]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.09.12-13.42.46:399][798]LogPackageName:Error: Illegal call to DoesPackageExist: 'D:/works/Videojocs/Roguelike/RoguelikeProj/Roguelike/RoguelikeProj.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.09.12-13.43.04:671][798]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.09.12-13.43.04:793][798]SourceControl: Info [master 697f1d9] Carpeta leveldesign
+[2017.09.12-13.43.04:793][798]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2017.09.12-13.43.04:793][798]SourceControl: Info  create mode 100644 Content/LevelDesign/LD_Casilla_snap.uasset
+[2017.09.12-13.43.04:793][798]SourceControl: Info  create mode 100644 Content/LevelDesign/LD_Casillas.uasset
+[2017.09.12-13.43.04:793][798]SourceControl: Info  create mode 100644 Content/LevelDesign/LD_GridPoints.uasset
+[2017.09.12-13.43.04:804][798]SourceControl: Info Commited [master 697f1d9] Carpeta leveldesign.
